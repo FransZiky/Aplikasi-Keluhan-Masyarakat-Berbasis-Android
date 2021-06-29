@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Kategorikeluhan"
+    android:background="@drawable/background_custome">
+    <LinearLayout
+        android:background="@drawable/custom_rectangle"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Cek Diri dari COVID-19 "
+        android:textSize="30dp"
+        android:textColor="@color/hitam"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Berdasarkan "
+        android:textSize="20dp"
+        android:textColor="@color/hitam"
+        />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/btncov1"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/judul"
+        android:layout_marginTop="60dp"
+        android:textSize="25dp"
+        android:fontFamily="serif-monospace"
+        android:text="Gejala" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/judul"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btncov2"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/judul"
+        android:layout_marginTop="60dp"
+        android:textSize="25dp"
+        android:fontFamily="serif-monospace"
+        android:text="Aktivitas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/judul"
+        android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#def1b5"
+    android:layout_marginTop="5dp"
+    android:id="@+id/penduduk_list">
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+             android:layout_marginStart="10dp"
+            android:id="@+id/pProfil"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/profile"/>
+     <TextView
+         android:fontFamily="sans-serif-condensed-medium"
+         android:layout_marginStart="10dp"
+         android:layout_centerVertical="true"
+         android:textColor="@color/darkblue"
+         android:id="@+id/txt_profil"
+         android:layout_toRightOf="@id/pProfil"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="25dp"
+         android:text="Nama"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/silver"/>
+
+</LinearLayout>

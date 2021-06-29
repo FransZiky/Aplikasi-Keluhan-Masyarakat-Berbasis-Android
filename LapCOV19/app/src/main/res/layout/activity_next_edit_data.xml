@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.NextEditData">
+
+    <TextView
+        android:id="@+id/pekerjaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Pekerjaan"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/pkrjn"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pekerjaan"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/ftFormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pkrjn"
+        android:layout_marginLeft="20dp"
+        android:text="Foto Formal"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/foto"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ftFormal"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="20dp"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/btnBrowse"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Browse"
+            android:typeface="serif"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="250dp"
+            android:backgroundTint="#0000ff"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:text="Simpan"
+            android:textColor="#FFFFFEFF"
+            android:textColorHint="#000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

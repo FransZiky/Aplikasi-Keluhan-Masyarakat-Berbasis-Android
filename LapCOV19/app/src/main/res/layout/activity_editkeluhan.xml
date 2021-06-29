@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".ui.Editkeluhan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:text="Edit Keluhan"
+        android:textColor="@color/hitam"
+        android:textSize="45dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Kategori : "
+        android:textColor="@color/hitam"
+        android:textSize="20dp" />
+        
+        <TextView
+            android:id="@+id/keluhanKategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textKategori"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Tanggal : "
+        android:textColor="@color/hitam"
+        android:textSize="20dp" />
+        <TextView
+            android:id="@+id/keluhanTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Keluhan : "
+        android:textColor="@color/hitam"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pesan"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:focusable="true"
+        android:gravity="top"
+        android:hint="Ketikkan Sesuatu"
+        android:inputType="textMultiLine"
+        android:padding="8dp">
+
+        <requestFocus />
+
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnkel4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:background="#FF0000"
+            android:text="Hapus"
+            android:textColor="@color/judul" />
+
+        <Button
+            android:id="@+id/btnkel5"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:background="#0000FF"
+            android:text="Simpan"
+            android:textColor="@color/judul" />
+
+    </RelativeLayout>
+
+</LinearLayout>

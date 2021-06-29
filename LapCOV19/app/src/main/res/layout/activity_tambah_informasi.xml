@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_custome"
+    tools:context=".ui.TambahInformasi">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/informasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Informasi"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:hint="Judul"
+                android:id="@+id/edit0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:typeface="serif"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:hint="Kategori"
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:editable="false"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="serif"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/edit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal"
+                android:text=""
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="serif"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/isiInformasi"
+                android:background="@drawable/edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="4dp"
+                android:focusable="true"
+                android:gravity="top"
+                android:hint="Ketikkan Sesuatu"
+                android:inputType="textMultiLine"
+                android:padding="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
+
+            <Button
+                android:id="@+id/btnHapus"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="#ff0000"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:text="hapus"
+                android:textColor="#FFFFFEFF"
+                android:textColorHint="#000000"/>
+
+
+            <Button
+                android:id="@+id/btnSimpan"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="120dp"
+                android:backgroundTint="#0000ff"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:text="simpan"
+                android:textColor="#FFFFFEFF"
+                android:textColorHint="#000000"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

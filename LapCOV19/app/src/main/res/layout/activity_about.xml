@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.About"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/permana"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/permana"
+            android:layout_marginRight="220dp"
+            />
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/permana"
+            android:text="Nama  :Permana"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx1"
+            android:text="NIM   : 11418028"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/tx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx2"
+            android:text="T-T-L   : Laguboti, 26-04-
+            \n               1999"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/tx4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx3"
+            android:text="Alamat: Laguboti"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/kevin"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/kevin"
+            android:layout_marginLeft="220dp"
+            />
+        <TextView
+            android:id="@+id/tx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kevin"
+            android:text="Nama : Kevin Aruan"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tx1"
+
+            />
+        <TextView
+            android:id="@+id/tx6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx5"
+            android:text="NIM     : 11418051"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tx2"
+            />
+        <TextView
+            android:id="@+id/tx7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx6"
+            android:text="T-T-L   : Siantar,
+            \n               19-06-2000"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tx3"
+            />
+        <TextView
+            android:id="@+id/tx8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx7"
+            android:text="Alamat: Siantar"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tx4"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/rince"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/rince"
+            android:layout_marginRight="220dp"
+            />
+        <TextView
+            android:id="@+id/tx9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rince"
+            android:text="Nama : Rince Parhusip"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tx10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx9"
+            android:text="NIM     : 11418056"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tx11"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx10"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:text="T-T-L   : Nainggolan, 30-09-
+            \n               1999"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/tx12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx11"
+            android:text="Alamat: Nainggolan"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/frans"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/frans"
+            android:layout_marginLeft="220dp"
+            />
+        <TextView
+            android:id="@+id/tx13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frans"
+            android:text="Nama : Frans Siregar"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tx9"
+
+            />
+        <TextView
+            android:id="@+id/tx14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx13"
+            android:text="NIM     : 11418035"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tx10"
+            />
+        <TextView
+            android:id="@+id/tx15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx14"
+            android:text="T-T-L   : Sigumpar,
+            \n               14-09-2000"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tx11"
+            />
+        <TextView
+            android:id="@+id/tx16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx15"
+            android:text="Alamat: Sigumpar"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tx12"
+            />
+    </RelativeLayout>
+
+</GridLayout>

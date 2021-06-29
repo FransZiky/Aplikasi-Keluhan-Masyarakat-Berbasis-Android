@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Kategorikeluhan"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Layanan Keluhan "
+        android:textSize="45dp"
+        android:textColor="@color/hitam"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="silahkan pilih kategori "
+        android:textSize="20dp"
+        android:textColor="@color/hitam"
+ />
+
+    <Button
+        android:id="@+id/btnkel1"
+        android:layout_width="260dp"
+        android:background="#696969"
+        android:textColor="@color/judul"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Kesehatan" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/judul"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/btnkel2"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:background="#696969"
+        android:textColor="@color/judul"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Umum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/judul"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnkel3"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="#696969"
+        android:textColor="@color/judul"
+        android:layout_marginTop="20dp"
+        android:text="Menilai Kinerja
+Pengurus Daerah" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/judul"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnkel4"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:background="#696969"
+        android:textColor="@color/judul"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Saran/Aspirasi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/judul"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

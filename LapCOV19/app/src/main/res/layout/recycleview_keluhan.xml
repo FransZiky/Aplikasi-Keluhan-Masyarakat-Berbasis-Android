@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:id="@+id/keluhan_list">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/kategoriKeluhan"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Judul"/>
+        <TextView
+            android:id="@+id/tanggalKeluhan"
+            android:textColor="@color/darkblue"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tanggal"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/pengirimKeluhan"
+        android:textColor="@color/darkblue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pengirim"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/silver"/>
+
+
+</LinearLayout>

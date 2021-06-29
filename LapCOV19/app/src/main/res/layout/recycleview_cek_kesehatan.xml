@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/cekkesehatan_list">
+
+    <RelativeLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/cekKes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/hasil_tes"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_below="@+id/cekKes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategori : "
+            android:textColor="@color/silver"/>
+        
+        <TextView
+            android:id="@+id/kategori1"
+            android:textColor="@color/silver"
+            android:layout_toRightOf="@+id/text1"
+            android:layout_below="@id/cekKes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="txt_kategori"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/silver"/>
+
+</LinearLayout>

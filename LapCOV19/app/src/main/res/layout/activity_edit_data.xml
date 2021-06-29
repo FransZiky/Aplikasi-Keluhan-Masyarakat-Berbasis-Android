@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.EditData">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/fto"
+            android:layout_centerHorizontal="true"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pFoto"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/circlebackgroundyellow"
+                android:src="@drawable/profile"/>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/pLoadPoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:src="@drawable/ic_action_camera"
+                android:layout_marginRight="0dp"
+                app:fabSize="mini"
+                tools:ignore="VectorDrawableCompat" />
+        </RelativeLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/fto"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:hint="Nama Lengkap"
+                        android:id="@+id/nama"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_margin="20dp"
+                        android:typeface="serif"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/jk"
+                        android:hint="Jenis Kelamin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:typeface="serif"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:editable="false"
+                        android:id="@+id/tglLhr"
+                        android:inputType="date"
+                        android:hint="Tanggal Lahir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20px"
+                        android:layout_margin="20dp"
+                        android:typeface="serif"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:hint="Alamat"
+                        android:id="@+id/almt"
+                        android:layout_margin="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:typeface="serif"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:hint="NIK"
+                        android:id="@+id/nik"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:typeface="serif"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/inpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:hint="Passowrd"
+                        android:typeface="serif"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/pekerjaan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:hint="Pekerjaan"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnSimpan"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_rectangle"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="#0000ff"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:text="Simpan"
+                    android:textColor="#FFFFFEFF"
+                    android:textColorHint="#000000"/>
+
+            </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Aktivitascovid"
+    android:background="#ADD8E6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Cek Diri dari COVID-19 "
+        android:textSize="30dp"
+        android:textColor="@color/hitam"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Berdasarkan Aktivitas "
+        android:textSize="20dp"
+        android:textColor="@color/hitam"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Apakah memiliki riwayat bepergian ke negara
+dengan wabah virus Corona di luar Indonesia
+dalam jangka waktu 14 hari terakhir? "
+        android:textSize="15dp"
+        android:textColor="@color/hitam"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/btngej1"
+            android:layout_width="wrap_content"
+            android:background="#696969"
+            android:textColor="@color/judul"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="Yes" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="80dp"
+                android:layout_height="0dp"/>
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Text"
+                android:textSize="20dp"
+                android:textColor="@color/hitam"
+                />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btngej2"
+            android:layout_width="wrap_content"
+            android:background="#696969"
+            android:textColor="@color/judul"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="No" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Apakah terdapat riwayat kontak dengan orang
+yang sudah dinyatakan positif terinfeksi
+virus Corona? "
+        android:textSize="15dp"
+        android:textColor="@color/hitam"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/btngej3"
+            android:layout_width="wrap_content"
+            android:background="#696969"
+            android:textColor="@color/judul"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="Yes" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="80dp"
+                android:layout_height="0dp"/>
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Text"
+                android:textSize="20dp"
+                android:textColor="@color/hitam"
+                />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btngej4"
+            android:layout_width="wrap_content"
+            android:background="#696969"
+            android:textColor="@color/judul"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="No" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="apakah ada kontak dengan orang yang memiliki
+gejala flu, yaitu demam, batuk, dan pilek, atau
+dengan orang yang diduga terinfeksi
+virus Corona?"
+        android:textSize="15dp"
+        android:textColor="@color/hitam"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/btngej5"
+            android:layout_width="wrap_content"
+            android:background="#696969"
+            android:textColor="@color/judul"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="Yes" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="80dp"
+                android:layout_height="0dp"/>
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Text"
+                android:textSize="20dp"
+                android:textColor="@color/hitam"
+                />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btngej6"
+            android:layout_width="wrap_content"
+            android:background="#696969"
+            android:textColor="@color/judul"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="No" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btngej7"
+            android:layout_width="wrap_content"
+            android:background="#0000FF"
+            android:textColor="@color/judul"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Kirim"
+            android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
+</LinearLayout>

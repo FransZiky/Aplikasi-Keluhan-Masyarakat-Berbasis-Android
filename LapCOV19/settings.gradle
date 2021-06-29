@@ -1,0 +1,2 @@
+rootProject.name='LapCOV-19'
+include ':app'

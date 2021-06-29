@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lapcov_19">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.About"></activity>
+        <activity android:name=".ui.detail_informasi" />
+        <activity android:name=".ui.Detailkeluhan" />
+        <activity android:name=".ui.AddKeluhan" />
+        <activity
+            android:name=".ui.Keluhan"
+            android:label="@string/title_activity_keluhan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.Informasi"
+            android:label="@string/title_activity_informasi"
+            android:parentActivityName=".ui.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.Dashboard" />
+        </activity>
+        <activity android:name=".ui.HasilCek" />
+        <activity
+            android:name=".ui.Profil"
+            android:label="Profil"
+            android:parentActivityName=".ui.Dashboard">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.Dashboard" />
+        </activity>
+        <activity
+            android:name=".ui.StatusPenduduk"
+            android:parentActivityName=".ui.KategoriStatus">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.KategoriStatus" />
+        </activity>
+        <activity android:name=".ui.KategoriStatus" />
+        <activity android:name=".ui.RequestLocationUpdatesWithCallbackActivity" />
+        <activity android:name=".ui.HasilCekCovid" />
+        <activity android:name=".ui.Dashboard" />
+        <activity android:name=".ui.CRUDStatus" />
+        <activity
+            android:name=".ui.InformasiDataPenduduk"
+            android:parentActivityName=".ui.DataPenduduk">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.DataPenduduk" />
+        </activity>
+        <activity android:name=".ui.DataPenduduk" />
+        <activity android:name=".ui.NextEditData" />
+        <activity android:name=".ui.EditData" />
+        <activity android:name=".ui.Register" />
+        <activity android:name=".ui.TambahInformasi" />
+        <activity android:name=".ui.KelolaInformasi" />
+        <activity
+            android:name=".ui.Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.Aktivitascovid" />
+        <activity android:name=".ui.Gejalacovid" />
+        <activity android:name=".ui.Kategoricovid" />
+        <activity android:name=".ui.Riwayatkeluhan" />
+        <activity android:name=".ui.Editkeluhan" />
+        <activity android:name=".ui.Kategorikeluhan" />
+        <activity android:name=".ui.MainActivity" />
+        <activity
+            android:name=".ui.Splashscreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>
